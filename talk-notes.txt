@@ -1,7 +1,3 @@
-
-Back in may we had
-Quick history,
-
 Back in May a consultant with Google did some performance auditing on some of the Kinja sites and presented their findings.
 
 -
@@ -71,82 +67,26 @@ regular - kinja deals
 
 comparision - https://deadspin.com/?eu_disabled=on
 
-
-
-
-
-
 --
 
+I won't go into the details of how all this works,
+
+basically we're using that lighthouse tool, but in AWS
+
+working with the DevOps team to get up all this stuff up and running in our 
+
+-- 
 
 
+what are we doing?
+easy:
+Lazy-loaded images on homepages...didn't work like we thought that did
+render blocking 3rd party JS files
+font optimization
+hard: 
+Critical Path/Inline CSS & JS:  90% unused
+Writing things to that page that don't get show (You May Also Like, on mobile)
+some what related: "Privileged" functionality being served to everybody
 
-show
-
-
-
-
-So the first thing
-So First
-One of the first
-
-things we needed
-
-
-Define your performance metrics
-and tests and collect baseline data
-
-
-
-
-This makes sense because their whole deal is
-Which
-
-The reason is
-
-
-
-
-Flash forward to Q2 and we
-
-While we we're getting deeper into into the react re-write stuff
-
-
-()
-
-
-
-TLDR: Our performance is pretty badbut not the worst
-
-In particular, they pointed out some
-
-So
-
-Basically
-With
-
-
-
-
-Team consists of Robin & Myself.
-but we have slot in with the frontend future team,
-
-
-
-
-New
-
-A consultant
-https://drive.google.com/drive/u/1/folders/0ABIlK8rJ8hXNUk9PVA
-
-
-
-
-
-
-
-
-
-https://qyg81cpxsf.execute-api.us-east-2.amazonaws.com/default/publish-to-sns
 
 
