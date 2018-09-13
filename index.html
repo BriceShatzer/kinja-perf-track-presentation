@@ -1,0 +1,164 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Performance Track</h2>
+				</section>
+				<section>
+					<section>
+						<img src="img/google-audit-1.png" class="" />
+					</section>
+					<section>
+						<img src="img/google-audit-2.png" class="" />
+					</section>
+				</section>
+				<section>
+					<style>
+						img.part-of-frontend-future {
+							max-width: 125px;
+							border-radius: 50%;
+						}
+						.perfbox {
+							padding: 0;
+						}
+
+					</style>
+					<section>
+						<div style="border:3px blue solid;padding: 1em;">
+							<p style="font-size:1.25em">Frontend Future</p>
+							<img src="https://avatars3.githubusercontent.com/u/710358" class="part-of-frontend-future" />
+							<img src="https://avatars1.githubusercontent.com/u/3171252" class="part-of-frontend-future" />
+							<img src="https://avatars3.githubusercontent.com/u/142130" class="part-of-frontend-future" />
+							<img src="https://avatars0.githubusercontent.com/u/5425530" class="part-of-frontend-future" />
+							<div style="border:1px white solid;display: inline-block; padding:0 0.35em;">
+								<span style="display: block;font-size:.75em;disply:block;">Performance</span>
+								<img style="float:leflt;clear:both;" src="img/robin.jpg" class="part-of-frontend-future" />
+								<img style="float:leflt;clear:both;" src="img/brice.jpg" class="part-of-frontend-future"/>
+							</div>
+						</div>
+					</section>
+					<section> <img src="img/react-so-hot.jpg" /> </section>
+				</section>
+				<section>
+					<section>
+						<img src="img/ikea.jpg" />
+					</section>
+					<section>
+						<h3>Metrics</h3>
+						<ul style="line-height: 2em">
+							<li>How long it takes for things to render on the page.</li>
+							<li>The file size of the page.</li>
+							<li>How many indivdual things are on the page.</li>
+						</ul>
+					</section>
+					<section>
+						<style>
+							ul.test-cases{ vertical-align: center;}
+							ul.test-cases{font-size: 0.75em}
+							ul.test-cases li a{display: inline; font-family:monospace; color:lightblue;margin-left:1em;}
+						</style>
+						<h3>Test Cases</h3>
+						<ul class="test-cases">
+							<li>Homepage of a non-satire site: <a href="https://gizmodo.com" target="_blank">https://gizmodo.com</a></li>
+							<li>Homepage of a satire site: <a href="https://www.theonion.com" target="_blank">https://www.theonion.com</a></li>
+							<li>Standard Post page with nearly every potenial blocknode: <a href="https://gawkerselenium.kinja.com/permanent-test-post-do-not-delete-1787626061" target="_blank">https://gawkerselenium.kinja.com/permanent-test-post-do-not-delete-1787626061</a></li>
+							<li>A Video Post: <a href="https://www.avclub.com/pacific-rim-uprising-proves-that-it-is-possible-to-scr-1823997019" target="_blank">https://www.avclub.com/pacific-rim-uprising-proves-that-it-is-possible-to-scr-1823997019</a></li>
+							<li>A Live Blog Post: <a href="https://gizmodo.com/well-be-liveblogging-the-apple-wwdc-2018-keynote-right-1826531789" target="_blank">https://gizmodo.com/well-be-liveblogging-the-apple-wwdc-2018-keynote-right-1826531789</a></li>
+							<li>A Post using the Feaured Post template: <a href="https://deadspin.com/native-american-lacrosse-teams-reported-racial-abuse-t-1824292659" target="_blank">https://deadspin.com/native-american-lacrosse-teams-reported-racial-abuse-t-1824292659</a></li>
+							<li>A Category Page: <a href="https://www.avclub.com/c/review" target="_blank">https://www.avclub.com/c/review</a></li>
+						</ul>
+					</section>
+					<section>
+						<div>
+							<img style="width:45%" src="img/variants1.png" />
+							<img style="width:45%;margin-left:5%;" src="img/variants2.png" />
+						 </div>
+					</section>
+					<section>
+						<code style="line-height: 2em">
+							https://www.website.com
+
+							https://www.website.com?adzone=kinjatest
+
+							https://www.website.com?no3rdparty
+						</code>
+					</section>
+					<section>
+							<img style="" src="img/lighthouse.png" />
+							<a href="https://app.datadoghq.com/screen/392391/lighthouse-perf-tests?page=0&is_auto=false&from_ts=1536844920000&to_ts=1536848520000&live=true" target="_blank" />...but automated</a>
+					</section>
+					<section>
+						<a href="https://qyg81cpxsf.execute-api.us-east-2.amazonaws.com/default/publish-to-sns" target="_blank">Custom Test Runner</a>
+					</section>
+					<section>
+						<img src="img/Mantle-Lighthouse-Lambda_Diagram.svg" style="background-color: #fff;"/>
+					</section>
+				</section>
+				<section>
+					<section>
+						<p><strong>Cool...now but now what?</strong></p>
+					</section>
+					<section>
+					<p><strong>Easy Stuff...</strong></p>
+					<ul>
+						<li>Lazy-loaded images on homepages<br/>...didn't work like we thought that did</li>
+						<li>Render blocking 3rd party JS files</li>
+						<li>Font Optimization</li>
+					</ul>
+				</section>
+				<section>
+					<p><strong>Hard Stuff...</strong></p>
+					<ul>
+						<li>Writing things to that page that don't get show</li>
+						<li>"Privileged" functionality being served to everybody</li>
+						<li>Critical Path/Inline CSS & JS:  90% unused</li>
+					</ul>
+				</section>
+
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

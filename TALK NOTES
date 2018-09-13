@@ -1,0 +1,152 @@
+
+Back in may we had
+Quick history,
+
+Back in May a consultant with Google did some performance auditing on some of the Kinja sites and presented their findings.
+
+-
+
+They found that our performance was on par or better than some of our peers, but that where was still a lot things we could improve.
+
+Their report pointed out a number of simple fixes and "easy wins" that we could implement pretty quickly, along with some bigger issues we should address. I'll talk about all that stuff in a little bit.
+
+
+-
+With the start of this quarter, Robin and myself now make up the performance team.
+
+We're a part of the frontend future team. I assume everybody is aware, but they're big project is rewriting a bunch of our frontend stuff into react.
+-
+
+One of the benefits of that work is that it should make everything faster...so it makes sense for us to be working together...
+
+-
+
+So before we did anything else we needed to figure out what we actually wanted to try and accomplish.
+-
+The metrics decided that we initially want to care about are
+*How long it takes for things to render on the page.
+*The file size of the page.
+*How many individual things are on the page.
+
+
+-
+The test cases (pages) we wanted to make sure we were paying attention to represented all the various types of pages & content that is available across our network.
+
+Homepage of a non-satire site: https://gizmodo.com
+Homepage of a satire site: https://www.theonion.com
+Standard Post page with nearly every potenial blocknode: https://gawkerselenium.kinja.com/permanent-test-post-do-not-delete-1787626061
+A Video Post: https://www.avclub.com/pacific-rim-uprising-proves-that-it-is-possible-to-scr-1823997019
+live-blog post: https://gizmodo.com/well-be-liveblogging-the-apple-wwdc-2018-keynote-right-1826531789
+Post using the Feaured Post templae: https://deadspin.com/native-american-lacrosse-teams-reported-racial-abuse-t-1824292659
+Category Page: https://www.avclub.com/c/review
+
+-
+
+Next issue is consistency from test instance to instance
+We're running all of these tests on live web pages and our
+our ecosystem is complex enough that visiting the same page, could produce widely different results
+so we wanted to control for that.
+
+7 urls, 3 different variations
+
+
+
+-
+
+So we knew what we wanted to look, so now we had to figure out how we wanted to test that stuff.
+
+Lighthouse! (show gizmodo audit tab)
+
+but - automated (show dash)
+
+(every 3 hours)
+--
+
+Established baseline of data,
+
+we can also run individual one-off tests
+
+
+regular - kinja deals
+
+comparision - https://deadspin.com/?eu_disabled=on
+
+
+
+
+
+
+--
+
+
+
+
+show
+
+
+
+
+So the first thing
+So First
+One of the first
+
+things we needed
+
+
+Define your performance metrics
+and tests and collect baseline data
+
+
+
+
+This makes sense because their whole deal is
+Which
+
+The reason is
+
+
+
+
+Flash forward to Q2 and we
+
+While we we're getting deeper into into the react re-write stuff
+
+
+()
+
+
+
+TLDR: Our performance is pretty badbut not the worst
+
+In particular, they pointed out some
+
+So
+
+Basically
+With
+
+
+
+
+Team consists of Robin & Myself.
+but we have slot in with the frontend future team,
+
+
+
+
+New
+
+A consultant
+https://drive.google.com/drive/u/1/folders/0ABIlK8rJ8hXNUk9PVA
+
+
+
+
+
+
+
+
+
+https://qyg81cpxsf.execute-api.us-east-2.amazonaws.com/default/publish-to-sns
+
+
